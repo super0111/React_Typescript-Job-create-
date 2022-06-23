@@ -13,7 +13,7 @@ export default function Navbar() {
         <img className="logo" src="/logo.png" alt="" />
         <div className="desktop">
           <div className="header-expand" onMouseOver={() => setStyleOfVal({ display: "block" })} onMouseLeave={() => setStyleOfVal({ display: "none" })}>
-            <span>Valuation</span>
+            <span>Valuations</span>
             <SmallArrow />
             <div className="nav-menu" style={styleOfVal}>
               <div>Online Property Valuation</div>
